@@ -1,4 +1,12 @@
 .banner-container {
     height: 100vh;
+
+}
+
+.banner-container .banner-title {
     background-color: rgb(175, 224, 224);
+}
+
+.banner-container .banner-image {
+    background-color: #30213F;
 }
