@@ -24,7 +24,10 @@ const Navbar = () => {
                             </li>
 
                             <li class="nav-item">
-                                <a href="http://"><button type="button" class="btn btn-success">Resume</button></a>
+                                <a href="https://drive.google.com/open?id=1tzS5Nl_Jd-xyoQveGLvuamb1z__XQnlE&authuser=tawsifulhye%40gmail.com&usp=drive_fs" target="_blank" rel="noreferrer">
+                                    <button type="button" class="btn btn-success">
+                                        Resume</button>
+                                </a>
                             </li>
                         </ul>
                     </div>
