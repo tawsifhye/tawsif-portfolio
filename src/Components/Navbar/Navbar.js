@@ -3,7 +3,7 @@ import '../ComponentGlobal.css'
 const Navbar = () => {
     return (
         <>
-            <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Tawsif.Dev</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
