@@ -2,12 +2,12 @@ import React from 'react';
 import project1_preview from "../../images/project1.png"
 import project2_preview from "../../images/project2.png"
 
-const MyProjects = () => {
+const FeaturedProjects = () => {
     return (
         <>
             <div id="about" className="mt-28">
-                <h1 className=" text-5xl text-center text-green-800 font-bold">My Projects</h1>
-                <div className="container mt-28">
+                <h1 className=" text-5xl text-center text-green-800 font-bold">Featured Projects</h1>
+                <div className="container mt-10">
                     {/* *******************project1************** */}
                     <div className="flex flex-row flex-wrap p-3">
                         <div className="mx-auto w-4/5">
@@ -80,4 +80,4 @@ const MyProjects = () => {
     );
 };
 
-export default MyProjects;
+export default FeaturedProjects;

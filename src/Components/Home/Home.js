@@ -1,15 +1,17 @@
 import React from 'react';
 import AboutMe from '../AboutMe/AboutMe';
 import Banner from '../Banner/Banner';
-import MyProjects from '../MyProjects/MyProjects';
+import FeaturedProjects from '../FeaturedProjects/FeaturedProjects';
 
 const Home = () => {
     return (
         <>
             <div>
-                <Banner></Banner>
-                <AboutMe></AboutMe>
-                <MyProjects></MyProjects>
+                <Banner />
+                <div id="about">
+                    <AboutMe />
+                </div>
+                <FeaturedProjects />
             </div>
         </>
     );

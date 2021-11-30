@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import '../ComponentGlobal.css'
 const Navbar = () => {
     return (
@@ -12,14 +14,15 @@ const Navbar = () => {
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                                <Link class="nav-link" to="/home">Home</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About Me</a>
+                                <HashLink class="nav-link" to="/home#about">About Me</HashLink>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</a>
+                                <Link class="nav-link" to="/projects">Projects</Link>
                             </li>
+
                             <li class="nav-item">
                                 <a href="http://"><button type="button" class="btn btn-success">Resume</button></a>
                             </li>
