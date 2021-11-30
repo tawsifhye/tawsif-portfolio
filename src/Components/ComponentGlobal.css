@@ -10,3 +10,12 @@
 .banner-container .banner-image {
     background-color: #30213F;
 }
+
+.navbar {
+    background-color: #e3f2fd;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #A5B4FC;
+    transition: ease-in;
+}
