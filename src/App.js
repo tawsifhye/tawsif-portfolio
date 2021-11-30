@@ -4,6 +4,7 @@ import AboutMe from './Components/AboutMe/AboutMe';
 import AllProjects from './Components/AllProjects/AllProjects';
 import Blogs from './Components/Blogs/Blogs';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 
@@ -11,7 +12,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar></Navbar>
+        <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -20,6 +21,7 @@ function App() {
           <Route path="/projects" element={<AllProjects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
 
     </>
