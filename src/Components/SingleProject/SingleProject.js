@@ -18,9 +18,9 @@ const SingleProject = ({ project }) => {
             <div className="flex flex-row flex-wrap p-3">
                 <div className="mx-auto w-full">
                     <div className="rounded-lg bg-gray-600 w-full p-3">
-                        <div class="w-full px-3">
-                            <div class="w-full text-gray-700 font-semibold">
-                                <div class="text-2xl text-white">{id}. {title}</div>
+                        <div className="w-full px-3">
+                            <div className="w-full text-gray-700 font-semibold">
+                                <div className="text-2xl text-white">{id}. {title}</div>
                                 <div>
                                     <Slider {...settings} className="slider ">
 
@@ -32,8 +32,8 @@ const SingleProject = ({ project }) => {
 
                                     </Slider>
                                 </div>
-                                <div class="text-normal text-gray-300">
-                                    <p class="border-b border-dashed border-gray-500 pb-1">
+                                <div className="text-normal text-gray-300">
+                                    <p className="border-b border-dashed border-gray-500 pb-1">
                                         {details}
                                     </p>
                                     <div className="mt-1 py-2">
@@ -42,12 +42,12 @@ const SingleProject = ({ project }) => {
                                     </div>
                                 </div>
                                 <a className="mr-2 " href={githubClient} rel="noreferrer" target="_blank">
-                                    <button class="mt-2 bg-blue-400 p-3 px-4 rounded-lg font-bold hover:bg-green-200">
+                                    <button className="mt-2 bg-blue-400 p-3 px-4 rounded-lg font-bold hover:bg-green-200">
                                         Github
                                     </button>
                                 </a>
                                 <a href={website} rel="noreferrer" target="_blank">
-                                    <button class="mt-2 bg-blue-400 p-3 px-4 rounded-lg font-bold hover:bg-green-200">
+                                    <button className="mt-2 bg-blue-400 p-3 px-4 rounded-lg font-bold hover:bg-green-200">
                                         Website
                                     </button>
                                 </a>

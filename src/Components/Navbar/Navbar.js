@@ -5,30 +5,33 @@ import '../ComponentGlobal.css'
 const Navbar = () => {
     return (
         <>
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Tawsif.Dev</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg navbar-light">
+                <div className="container-fluid">
+                    <Link className="navbar-brand" to="/home">Tawsif.Dev</Link>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarText">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <Link class="nav-link" to="/home">Home</Link>
+                    <div className="collapse navbar-collapse" id="navbarText">
+                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/home">Home</Link>
                             </li>
-                            <li class="nav-item">
-                                <HashLink class="nav-link" to="/home#about">About Me</HashLink>
+                            <li className="nav-item">
+                                <HashLink className="nav-link" to="/home#about">About Me</HashLink>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="/projects">Projects</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/projects">Projects</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="/blogs">Blogs</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/blogs">Blogs</Link>
+                            </li>
+                            <li className="mr-2 nav-item">
+                                <Link className="nav-link" to="/contact">Contact Me</Link>
                             </li>
 
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <a href="https://drive.google.com/open?id=1tzS5Nl_Jd-xyoQveGLvuamb1z__XQnlE&authuser=tawsifulhye%40gmail.com&usp=drive_fs" target="_blank" rel="noreferrer">
-                                    <button type="button" class="btn btn-success">
+                                    <button type="button" className="btn btn-success">
                                         Resume</button>
                                 </a>
                             </li>
