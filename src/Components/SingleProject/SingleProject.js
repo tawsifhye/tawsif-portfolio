@@ -2,13 +2,13 @@ import React from 'react';
 import Slider from 'react-slick';
 import '../ComponentGlobal.css'
 const SingleProject = ({ project }) => {
-    const { id, title, details, technologies, previews, website, github } = project;
+    const { id, title, details, technologies, previews, website, githubClient } = project;
     console.log(project.previews);
     const settings = {
         dots: false,
         infinite: true,
         speed: 500,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 3000,
         slidesToShow: 1,
         slidesToScroll: 1
@@ -17,11 +17,10 @@ const SingleProject = ({ project }) => {
         <>
             <div className="flex flex-row flex-wrap p-3">
                 <div className="mx-auto w-full">
-                    <div className="rounded-lg shadow-lg bg-gray-600 w-full flex flex-row flex-wrap p-3 antialiased">
-
-                        <div class="w-full px-3 flex flex-row flex-wrap">
-                            <div class="w-full text-gray-700 font-semibold pt-3 md:pt-0">
-                                <div class="text-2xl text-white leading-tight">{id}. {title}</div>
+                    <div className="rounded-lg bg-gray-600 w-full p-3">
+                        <div class="w-full px-3">
+                            <div class="w-full text-gray-700 font-semibold">
+                                <div class="text-2xl text-white">{id}. {title}</div>
                                 <div>
                                     <Slider {...settings} className="slider ">
 
@@ -42,9 +41,9 @@ const SingleProject = ({ project }) => {
                                         <p>{technologies}</p>
                                     </div>
                                 </div>
-                                <a className="mr-2 " href={github} rel="noreferrer" target="_blank">
+                                <a className="mr-2 " href={githubClient} rel="noreferrer" target="_blank">
                                     <button class="mt-2 bg-blue-400 p-3 px-4 rounded-lg font-bold hover:bg-green-200">
-                                        GitHub
+                                        Github
                                     </button>
                                 </a>
                                 <a href={website} rel="noreferrer" target="_blank">

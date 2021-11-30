@@ -22,6 +22,9 @@ const Navbar = () => {
                             <li class="nav-item">
                                 <Link class="nav-link" to="/projects">Projects</Link>
                             </li>
+                            <li class="nav-item">
+                                <Link class="nav-link" to="/blogs">Blogs</Link>
+                            </li>
 
                             <li class="nav-item">
                                 <a href="https://drive.google.com/open?id=1tzS5Nl_Jd-xyoQveGLvuamb1z__XQnlE&authuser=tawsifulhye%40gmail.com&usp=drive_fs" target="_blank" rel="noreferrer">
