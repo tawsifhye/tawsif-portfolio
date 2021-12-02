@@ -4,6 +4,7 @@ import AboutMe from './Components/AboutMe/AboutMe';
 import AllProjects from './Components/AllProjects/AllProjects';
 import Blogs from './Components/Blogs/Blogs';
 import Contact from './Components/Contact/Contact';
+import FloatingButton from './Components/FloatingButton/FloatingButton';
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
@@ -13,6 +14,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
+        <FloatingButton />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />

@@ -41,18 +41,18 @@ const SingleProject = ({ project }) => {
                                     </div>
                                 </div>
                                 <a className="mr-2" href={website} rel="noreferrer" target="_blank">
-                                    <button className="mt-2 bg-blue-400 p-3 px-4 rounded-lg font-bold hover:bg-green-200"> <i className="fas fa-link text-xl"></i>
+                                    <button className="mt-2 bg-blue-400 p-3 px-4 rounded-lg font-bold hvr-sweep-to-right"> <i className="fas fa-link text-xl"></i>
                                         Website
                                     </button>
                                 </a>
                                 <a className="mr-2" href={githubClient} rel="noreferrer" target="_blank">
-                                    <button className="mt-2 bg-blue-400 p-3 px-4 rounded-lg font-bold hover:bg-green-200"> <i className="fab fa-github text-xl"></i>
+                                    <button className="mt-2 bg-blue-400 p-3 px-4 rounded-lg font-bold hvr-sweep-to-right"> <i className="fab fa-github text-xl"></i>
                                         Client Code
                                     </button>
                                 </a>
                                 {
                                     githubServer && <a className="mr-2" href={githubServer} rel="noreferrer" target="_blank">
-                                        <button className="mt-2 bg-blue-400 p-3 px-4 rounded-lg font-bold hover:bg-green-200"> <i className="fab fa-github text-xl"></i>
+                                        <button className="mt-2 bg-blue-400 p-3 px-4 rounded-lg font-bold hvr-sweep-to-right"> <i className="fab fa-github text-xl"></i>
                                             Server Code
                                         </button>
                                     </a>

@@ -43,6 +43,7 @@ const Banner = () => {
                         <a href="mailto: tawsifulhye@gmail.com"><i className="fas fa-envelope hvr-pulse"></i></a>
                     </MovingComponent>
 
+
                 </div>
 
             </div>

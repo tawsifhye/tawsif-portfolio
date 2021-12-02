@@ -6,7 +6,7 @@ import FeaturedProjects from '../FeaturedProjects/FeaturedProjects';
 const Home = () => {
     return (
         <>
-            <div>
+            <div id="home">
                 <Banner />
 
                 <AboutMe />
