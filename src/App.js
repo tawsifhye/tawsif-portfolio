@@ -8,6 +8,7 @@ import FloatingButton from './Components/FloatingButton/FloatingButton';
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
+import NotFound from './Components/NotFound/NotFound';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/projects" element={<AllProjects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
