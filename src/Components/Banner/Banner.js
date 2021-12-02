@@ -5,6 +5,7 @@ const Banner = () => {
     return (
         <>
             <div className="flex flex-col justify-center align-middle banner-container">
+
                 <div className="mx-auto font-semibold p-2">
                     <MovingComponent
                         type="zoomIn"
