@@ -209,8 +209,9 @@ i {
 
 /* footer css */
 
+/* floating-button css */
 
-.float {
+.floating-button {
     position: fixed;
     width: 50px;
     height: 50px;
@@ -219,3 +220,5 @@ i {
     color: red;
     z-index: 100;
 }
+
+/* floating-button css */
