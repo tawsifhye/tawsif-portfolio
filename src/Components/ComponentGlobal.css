@@ -216,8 +216,6 @@ i {
     height: 50px;
     bottom: 40px;
     right: 10px;
-    color: rgb(14, 239, 247);
+    color: red;
     z-index: 100;
 }
-
-.my-float {}

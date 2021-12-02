@@ -19,7 +19,7 @@ const FloatingButton = () => {
             {isScroll &&
                 <div>
                     <button class="float text-5xl" onClick={scrollUp}>
-                        <i class="fas fa-arrow-alt-circle-up"></i>
+                        <i class="far fa-arrow-alt-circle-up"></i>
                     </button>
                 </div>
             }
