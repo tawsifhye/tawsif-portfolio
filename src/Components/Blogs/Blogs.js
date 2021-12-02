@@ -1,9 +1,9 @@
 import React from 'react';
-
+import coming_soon_banner from '../../images/coming_soon.jpg'
 const Blogs = () => {
     return (
         <div>
-            <h1 className="text-4xl text-center">Blogs Coming Soon!</h1>
+            <img src={coming_soon_banner} alt="coming soon banner" />
         </div>
     );
 };
