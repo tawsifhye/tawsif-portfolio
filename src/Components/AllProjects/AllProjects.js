@@ -4,6 +4,7 @@ import SingleProject from '../SingleProject/SingleProject';
 const AllProjects = () => {
     const [projects, setProjects] = useState([]);
     useEffect(() => {
+        document.title = "Tawsif Dot Dev | Projects"
         fetch('allprojects.json')
             .then(res => res.json())
             .then(data => setProjects(data))
