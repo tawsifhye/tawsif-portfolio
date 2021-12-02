@@ -14,6 +14,7 @@ const AboutMe = () => {
                         <p className="font-black mb-5 text-justify">I'm a web developer with hands-on experience in JavaScript. I am passionate to build any kind of web development solution. I am an aspiring web developer, learning every aspect of web development. Alongside, I have achieved my CCNA certification. I have the experience to work as Technical Support Engineer. I am a quick learner, a team performer, and can stick to something until I achieve positive results.</p>
                         <div id="skills">
                             <h1 className="text-3xl font-bold border-l-4 p-1 border-blue-500">Skills</h1>
+
                             <div id="comfortable-skills" className="mt-3">
                                 <h1 className="text-xl font-bold">Comfortable</h1>
                                 <div className="bg-blue-300 font-black inline-block mr-3 mt-3 py-2 px-2 ring-2 ring-indigo-800 rounded-lg ">JavaScript/ES6</div>
@@ -53,3 +54,4 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
+
