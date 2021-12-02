@@ -3,7 +3,6 @@ import Slider from 'react-slick';
 import '../ComponentGlobal.css'
 const SingleProject = ({ project }) => {
     const { id, title, details, technologies, previews, website, githubClient, githubServer } = project;
-    console.log(project.previews);
     const settings = {
         dots: false,
         infinite: true,
@@ -25,7 +24,7 @@ const SingleProject = ({ project }) => {
                                     <Slider {...settings} className="slider ">
 
                                         {
-                                            previews.map(preview => <div ke={id}>
+                                            previews.map(preview => <div key={id}>
                                                 <img className="" src={preview} alt="" />
                                             </div>)
                                         }

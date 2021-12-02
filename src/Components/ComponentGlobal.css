@@ -2,27 +2,27 @@
 
 .banner-container {
     height: 100vh;
+    background-color: rgb(175, 224, 224);
 
 }
+
+.banner-icons a {}
 
 /* banner-css */
 
-.banner-container .banner-title {
-    background-color: rgb(175, 224, 224);
-}
-
-.banner-container .banner-image {
-    background-color: #30213F;
-}
 
 /* navbar t css */
 .navbar {
     background-color: #e3f2fd;
 }
 
+.scroll {
+    background-color: rgb(5, 4, 5);
+    font-weight: bold;
+}
+
 .nav-link:hover {
     border-bottom: 2px solid #A5B4FC;
-
 }
 
 /* navbar t css */

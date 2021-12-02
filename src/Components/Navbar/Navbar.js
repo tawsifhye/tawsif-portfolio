@@ -1,14 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import '../ComponentGlobal.css'
 const Navbar = () => {
+    const [scroll, setScroll] = useState(false)
+
+    const changeBackground = () => {
+        if (window.scrollY >= 80) {
+            setScroll(true);
+        }
+        else setScroll(false);
+    };
+
+    window.addEventListener("scroll", changeBackground)
+
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light">
+            <nav className={scroll ? "navbar navbar-expand-lg navbar-light sticky-top scroll" : "navbar navbar-expand-lg navbar-light sticky-top"}>
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="/home">Tawsif.Dev</Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <Link className={scroll ? "navbar-brand text-white" : "navbar-brand"} to="/home">Tawsif.Dev</Link>
+                    <button className="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarText">
@@ -17,16 +28,16 @@ const Navbar = () => {
                                 <Link className="nav-link" to="/home">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <HashLink className="nav-link" to="/home#about">About Me</HashLink>
+                                <HashLink className={scroll ? "nav-link text-white" : "nav-link"} to="/home#about">About Me</HashLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/projects">Projects</Link>
+                                <Link className={scroll ? "nav-link text-white" : "nav-link"} to="/projects">Projects</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/blogs">Blogs</Link>
+                                <Link className={scroll ? "nav-link text-white" : "nav-link"} to="/blogs">Blogs</Link>
                             </li>
                             <li className="mr-2 nav-item">
-                                <Link className="nav-link" to="/contact">Contact Me</Link>
+                                <Link className={scroll ? "nav-link text-white" : "nav-link"} to="/contact">Contact Me</Link>
                             </li>
 
                             <li className="nav-item">
