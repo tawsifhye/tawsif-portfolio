@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../ComponentGlobal.css'
 const Contact = () => {
+    useEffect(() => {
+        document.title = "Tawsif Dot Dev | Contact"
+    }, [])
     return (
+
         <>
             <div className="wrapper mx-auto my-3">
                 <h2>CONTACT US</h2>
