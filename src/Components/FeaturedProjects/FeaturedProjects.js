@@ -5,7 +5,7 @@ import SingleProject from '../SingleProject/SingleProject';
 const FeaturedProjects = () => {
     const [projects, setProjects] = useState([]);
     useEffect(() => {
-        fetch('featuredprojects.json')
+        fetch('allprojects.json')
             .then(res => res.json())
             .then(data => setProjects(data))
     }, [])

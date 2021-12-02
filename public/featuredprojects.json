@@ -9,9 +9,10 @@
             "https://i.ibb.co/s6HxTdV/real-estate-preview8.png"
             
         ],
-        "details": "MERN Real Estate website, where users can book favorite house, cancel order, add reviews. Dashboard with admin pane, where user's & admin's routes are different.Admin can add new services, delete services, update status.",
+        "details": "MERN Real Estate website, where users can book favorite house, cancel order, add reviews. Dashboard with admin panel, where user's & admin's routes are different.Admin can add new services, delete services, update status.",
         "technologies": "React.js, REST API, Firebase google sign in, Firebase email password registration and sign in, React router, Bootstrap5 CDN, Express.js, MongoDB, Firebase hosting.",
         "githubClient": "https://github.com/tawsifhye/real-estate-client",
+        "githubServer": "https://github.com/tawsifhye/real-estate-server",
         "website": "https://real-estate-fcbd3.web.app/"
     },
     {
