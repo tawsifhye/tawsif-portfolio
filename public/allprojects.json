@@ -10,6 +10,19 @@
             
         ],
         "details": "MERN Real Estate website, where users can book favorite house, cancel order, add reviews. Dashboard with admin panel, where user's & admin's routes are different.Admin can add new services, delete services, update status.",
+        "features":[
+            "Google Sign In",
+            "Email Password registration",
+            "User can book favorite service",
+            "Dashboard for managing orders and services",
+            "Different routes for users and admin",
+            "User can see booked items in 'My Booking'",
+            "User can add review with daynamic rating",
+            "Admin can add and delete service",
+            "Admin can assign new admin",
+            "User log in with gmail can only see own booked items from that specific account. User can cancel booking",
+            "In 'Manage All Booking' all orders of all users is displayed. Order of any user can be deleted. And status can be updated by admin"
+        ],
         "technologies": "React.js, REST API, Firebase google sign in, Firebase email password registration and sign in, React router, Bootstrap5 CDN, Express.js, MongoDB, Firebase hosting.",
         "githubClient": "https://github.com/tawsifhye/real-estate-client",
         "githubServer": "https://github.com/tawsifhye/real-estate-server",
@@ -26,6 +39,13 @@
             
         ],
         "details": "MERN Travel website, where users can book favorite destinations & cancel order. Order status can be updated from 'Manage All Orders'.",
+        "features":[
+            "Google Sign In",
+            "User can book favorite items",
+            "User can see booked items in 'My Booking'",
+            "User log in with gmail can only see own booked items from that specific account. User can cancel booking",
+            "In 'Manage All Booking' all orders of all users is displayed. Order of any user can be deleted. And status can be updated to approved"
+        ],
         "technologies": "React.js, REST API, Firebase google sign in, React router, Bootstrap5 CDN, Express.js, MongoBD, Heroku, Firebase Hosting.",
         "githubClient": "https://github.com/tawsifhye/travel-agency-client",
         "githubServer": "https://github.com/tawsifhye/travel-agency-server",
@@ -42,6 +62,11 @@
             
         ],
         "details": "This React Single Page Application can be used for gym/ health care solution. Signed in users can see details of a training.",
+        "features":[
+            "Integrated firebase authentication with Google sign-in and custom authentication also",
+            "Authenticated users can see details of training",
+            "Fully responsive website using Bootstrap5"
+        ],
         "technologies": "React.js, Firebase authentication, React router and private route, Bootstrap5 CDN, Firebase Hosting.",
         "githubClient": "https://github.com/tawsifhye/fitness-club-gym",
         "website": "https://react-firebase-authentic-1042a.web.app/"
