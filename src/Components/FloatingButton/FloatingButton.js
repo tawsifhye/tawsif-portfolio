@@ -4,7 +4,7 @@ const FloatingButton = () => {
     const [isScroll, setIsScroll] = useState(false)
 
     const showButton = () => {
-        if (document.documentElement.scrollTop > 20) {
+        if (document.documentElement.scrollTop > 300) {
             setIsScroll(true);
         }
         else setIsScroll(false);

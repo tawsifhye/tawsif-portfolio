@@ -1,18 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 import bannar_image2 from "../../images/banner-image2.jpg"
 const AboutMe = () => {
+    useEffect(() => {
+        Aos.init();
+    }, [])
+
     return (
         <>
 
             <div id="about" className="mt-28">
                 <h1 className=" text-5xl text-center text-green-800 font-bold">About Me</h1>
                 <div className="container grid mt-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 mx-auto">
-                    <div className="flex sm:mt-10 flex-col justify-center ">
+                    <div data-aos="fade-right" className="flex sm:mt-10 flex-col justify-center ">
                         <img className="mx-auto w-3/5 rounded-full ring-8 inline-block" src={bannar_image2} alt="" />
                     </div>
-                    <div className="p-5 flex flex-col align-middle justify-items-center">
+                    <div data-aos="fade-left" className="p-5 flex flex-col align-middle justify-items-center">
                         <p className="font-black mb-5 text-justify">I'm a web developer with hands-on experience in JavaScript. I am passionate to build any kind of web development solution. I am an aspiring web developer, learning every aspect of web development. Alongside, I have achieved my CCNA certification. I have the experience to work as Technical Support Engineer. I am a quick learner, a team performer, and can stick to something until I achieve positive results.</p>
-                        <div id="skills">
+                        <div data-aos="zoom-in" id="skills">
                             <h1 className="text-3xl font-bold border-l-4 p-1 border-blue-500">Skills</h1>
 
                             <div id="comfortable-skills" className="mt-3">
