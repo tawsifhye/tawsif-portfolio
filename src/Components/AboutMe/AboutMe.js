@@ -1,10 +1,7 @@
 import React, { useEffect } from 'react';
-import Aos from 'aos';
-import 'aos/dist/aos.css'
 import bannar_image2 from "../../images/banner-image2.jpg"
 const AboutMe = () => {
     useEffect(() => {
-        Aos.init();
     }, [])
 
     return (
