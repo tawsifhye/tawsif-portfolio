@@ -14,7 +14,7 @@ const FeaturedProjects = () => {
 
     return (
         <>
-            <div id="about" className="mt-28 mb-16">
+            <div id="projects" className="mt-28 mb-16">
                 <h1 data-aos="zoom-out-down" className=" text-5xl text-center text-green-800 font-bold">Featured Projects</h1>
                 <div className="container mt-10">
                     {

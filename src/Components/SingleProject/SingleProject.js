@@ -14,7 +14,7 @@ const SingleProject = ({ project }) => {
     };
     return (
         <>
-            <div className="flex flex-row flex-wrap p-3">
+            <div className="p-3">
                 <div className="mx-auto w-full">
                     <div className="rounded-lg bg-gray-600 w-full p-3">
                         <div className="w-full px-3">
