@@ -16,7 +16,7 @@ const AboutMe = () => {
                     <div className="p-5 flex flex-col align-middle justify-items-center">
                         <p className="font-black mb-5 text-justify">I'm a web developer with hands-on experience in JavaScript. I am passionate to build any kind of web development solution. I am an aspiring web developer, learning every aspect of web development. I am a quick learner, a team performer, and can stick to something until I achieve positive results.</p>
                         <div className='mb-5'>
-                            <h1 className="text-3xl font-bold border-l-4 p-1 border-blue-500 mb-1">Experience</h1>
+                            <h1 className="text-3xl font-bold border-l-4 p-1 border-blue-500 mb-3">Experience</h1>
                             <p className="text-2xl font-bold">Staff Asia</p>
                             <p className=" font-bold">Web Developer</p>
                             <p className=" font-bold">Internship</p>
