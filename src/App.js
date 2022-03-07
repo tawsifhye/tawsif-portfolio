@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import AboutMe from './Components/AboutMe/AboutMe';
-import Blogs from './Components/Blogs/Blogs';
+// import Blogs from './Components/Blogs/Blogs';
 import Contact from './Components/Contact/Contact';
 import FeaturedProjects from './Components/FeaturedProjects/FeaturedProjects';
 import FloatingButton from './Components/FloatingButton/FloatingButton';
