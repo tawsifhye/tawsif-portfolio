@@ -15,7 +15,7 @@ const Banner = () => {
                         timing="ease"
                         iteration="1"
                         fillMode="backwards">
-                        <h1 className="text-8xl py-2" >Hi, I am Tawsif</h1>
+                        <h1 className="lg:text-8xl xs: text-4xl py-2" >Hi, I am Tawsif</h1>
                     </MovingComponent>
                     <MovingComponent
                         type="zoomOut"
@@ -25,7 +25,7 @@ const Banner = () => {
                         timing="ease"
                         iteration="1"
                         fillMode="backwards">
-                        <h1 className="text-5xl py-2 text-gray-700">A Web Developer</h1>
+                        <h1 className="lg:text-5xl xs: text-2xl py-2 text-gray-700">A Web Developer</h1>
                     </MovingComponent>
 
 

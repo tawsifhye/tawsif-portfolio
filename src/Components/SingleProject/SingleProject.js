@@ -2,14 +2,14 @@ import React from 'react';
 import Slider from 'react-slick';
 import '../ComponentGlobal.css'
 
-const skillTab = 'bg-blue-300 inline-block mr-3 mt-3 py-2 px-2 ring-2 ring-indigo-800 rounded-lg'
+const technologyTab = 'bg-blue-400 inline-block mr-3 mt-3 py-2 px-2 ring-2 ring-indigo-800 rounded-lg'
 
 const SingleProject = ({ project }) => {
     const { id, title, details, technologies, previews, website, githubClient, githubServer, features } = project;
 
     return (
         <>
-            <div className="rounded-lg bg-gray-500 w-75 h-80 overflow-y-scroll p-3 mx-auto">
+            <div className="rounded-lg bg-gray-500 w-md-75 w-md-100 h-80 overflow-y-scroll p-3 mx-auto">
                 <div className="w-full px-3">
                     <div className="w-full text-white">
 
@@ -21,11 +21,11 @@ const SingleProject = ({ project }) => {
                             <div className="mt-1 py-2">
                                 <h4 >Technology Used:</h4>
                                 {
-                                    technologies.map(technology => (<p className={skillTab}>{technology}</p>))
+                                    technologies.map(technology => (<p className={technologyTab}>{technology}</p>))
 
                                 }
                                 <ul>
-                                    {features.map(feature => <li key={id} className="px-3"> <span className="px-1">➼</span> {feature}</li>)}
+                                    {features.map(feature => <li key={id} className="px-3"> <span className="px-1">➼</span>{feature}</li>)}
                                 </ul>
 
                             </div>

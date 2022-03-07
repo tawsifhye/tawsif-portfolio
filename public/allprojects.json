@@ -23,7 +23,7 @@
             "User log in with gmail can only see own booked items from that specific account. User can cancel booking",
             "In 'Manage All Booking' all orders of all users is displayed. Order of any user can be deleted. And status can be updated by admin"
         ],
-        "technologies":[ "React.js", "REST API", "Firebase google sign in", "Firebase email password registration and sign in", "React router", "Bootstrap5 CDN", "Express.js", "MongoDB", "Firebase hosting"],
+        "technologies":[ "React.js", "REST API", "Google sign in", "Firebase authentication", "React router", "Bootstrap5 CDN", "Express.js", "MongoDB", "Firebase hosting"],
         "githubClient": "https://github.com/tawsifhye/real-estate-client",
         "githubServer": "https://github.com/tawsifhye/real-estate-server",
         "website": "https://real-estate-fcbd3.web.app/"
@@ -46,7 +46,7 @@
             "User log in with gmail can only see own booked items from that specific account. User can cancel booking",
             "In 'Manage All Booking' all orders of all users is displayed. Order of any user can be deleted. And status can be updated to approved"
         ],
-        "technologies": ["React.js", "REST API", "Firebase google sign in", "React router", "Bootstrap5 CDN", "Express.js", "MongoBD", "Heroku", "Firebase Hosting"],
+        "technologies": ["React.js", "REST API", "Google sign in", "React router", "Bootstrap5 CDN", "Express.js", "MongoBD", "Heroku", "Firebase Hosting"],
         "githubClient": "https://github.com/tawsifhye/travel-agency-client",
         "githubServer": "https://github.com/tawsifhye/travel-agency-server",
         "website": "https://travel-agency-b8391.web.app/"

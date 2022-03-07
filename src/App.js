@@ -11,11 +11,14 @@ import Navbar from './Components/Navbar/Navbar';
 import NotFound from './Components/NotFound/NotFound';
 
 function App() {
+
+  const size = window.innerWidth;
+
   return (
     <>
       <BrowserRouter>
         <Navbar />
-        <FloatingButton />
+        {size > 768 && <FloatingButton />}
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />

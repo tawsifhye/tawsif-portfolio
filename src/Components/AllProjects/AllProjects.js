@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useState } from 'react';
+/* import React, { Suspense, useEffect, useState } from 'react';
 import '../ComponentGlobal.css'
 import SingleProject from '../SingleProject/SingleProject';
 const AllProjects = () => {
@@ -32,4 +32,4 @@ const AllProjects = () => {
     );
 };
 
-export default AllProjects;
+export default AllProjects; */
