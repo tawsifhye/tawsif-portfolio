@@ -33,9 +33,9 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <HashLink className={scroll ? "nav-link text-white" : "nav-link"} to="/home#projects">Projects</HashLink>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className={scroll ? "nav-link text-white" : "nav-link"} to="/blogs">Blogs</Link>
-                            </li>
+                            </li> */}
                             <li className="mr-2 nav-item">
                                 <Link className={scroll ? "nav-link text-white" : "nav-link"} to="/contact">Contact Me</Link>
                             </li>
