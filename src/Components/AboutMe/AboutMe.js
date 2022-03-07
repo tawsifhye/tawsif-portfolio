@@ -10,12 +10,19 @@ const AboutMe = () => {
                 <h1 className=" text-5xl text-center text-green-800 font-bold">About Me</h1>
 
                 <div className="container grid mt-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 mx-auto">
-                    <div data-aos="fade-right" className="flex sm:mt-10 flex-col justify-center ">
+                    <div className="flex sm:mt-10 flex-col justify-center ">
                         <img className="mx-auto w-3/5 rounded-full ring-8 inline-block" src={bannar_image2} alt="" />
                     </div>
-                    <div data-aos="fade-left" className="p-5 flex flex-col align-middle justify-items-center">
+                    <div className="p-5 flex flex-col align-middle justify-items-center">
                         <p className="font-black mb-5 text-justify">I'm a web developer with hands-on experience in JavaScript. I am passionate to build any kind of web development solution. I am an aspiring web developer, learning every aspect of web development. I am a quick learner, a team performer, and can stick to something until I achieve positive results.</p>
-                        <div data-aos="zoom-in" id="skills">
+                        <div className='mb-5'>
+                            <h1 className="text-3xl font-bold border-l-4 p-1 border-blue-500 mb-1">Experience</h1>
+                            <p className="text-2xl font-bold">Staff Asia</p>
+                            <p className=" font-bold">Web Developer</p>
+                            <p className=" font-bold">Internship</p>
+                            <p className=" font-bold">January 2022 - Present</p>
+                        </div>
+                        <div id="skills">
                             <h1 className="text-3xl font-bold border-l-4 p-1 border-blue-500">Skills</h1>
 
                             <div id="comfortable-skills" className="mt-3">
