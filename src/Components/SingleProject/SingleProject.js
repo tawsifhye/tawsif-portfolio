@@ -1,6 +1,6 @@
 import React from 'react';
-import Slider from 'react-slick';
-import '../ComponentGlobal.css'
+
+
 
 const technologyTab = 'bg-blue-400 inline-block mr-3 mt-3 py-2 px-2 ring-2 ring-indigo-800 rounded-lg'
 

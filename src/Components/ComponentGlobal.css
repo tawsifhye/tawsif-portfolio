@@ -83,6 +83,23 @@
 
 }
 
+
+.nextPrev {
+    background-color: rgb(147, 197, 253);
+    border-radius: 6px;
+    padding: 20px;
+    color: white;
+}
+
+.nextPrev:first-child {
+    margin-right: 10px;
+}
+
+.nextPrev:active {
+    background: rgb(175, 224, 224);
+}
+
+
 .slider img {
     padding: 2%;
     width: 100%;
