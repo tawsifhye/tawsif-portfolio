@@ -41,7 +41,6 @@ const settings = {
 const FeaturedProjects = () => {
     const [projects, setProjects] = useState([]);
     const sliderRef = useRef(null);
-    console.log(sliderRef);
     useEffect(() => {
         fetch('allprojects.json')
             .then(res => res.json())
@@ -51,11 +50,11 @@ const FeaturedProjects = () => {
     return (
         <>
             <div id="projects" className=" container mt-28 mb-16">
-                <h1 className=" text-5xl text-center text-green-800 font-bold">Featured Projects</h1>
+                <h1 className=" text-5xl text-center text-blue-400 font-bold">Featured Projects</h1>
                 <div className='flex justify-end mt-3'>
-                    <span className='nextPrev'><FaArrowLeft onClick={() => sliderRef?.current?.slickPrev()} /></span>
+                    <span className='nextPrev' onClick={() => sliderRef?.current?.slickPrev()}><FaArrowLeft /></span>
 
-                    <span className='nextPrev'><FaArrowRight onClick={() => sliderRef?.current?.slickNext()} /></span>
+                    <span className='nextPrev' onClick={() => sliderRef?.current?.slickNext()}><FaArrowRight /></span>
                 </div>
                 <div className="container mt-10">
 

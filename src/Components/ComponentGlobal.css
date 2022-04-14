@@ -1,8 +1,12 @@
+body {
+    background-color: #F5FFFA;
+}
+
 /* banner-css */
 
 .banner-container {
     height: 100vh;
-    background-color: rgb(175, 224, 224);
+    background-color: rgb(147, 197, 253);
 
 }
 
@@ -55,9 +59,10 @@
 /* banner-css */
 
 
-/* navbar t css */
+/* navbar css */
 .navbar {
-    background-color: #e3f2fd;
+    background-color: rgb(147, 197, 253);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .scroll {
@@ -65,11 +70,16 @@
     font-weight: bold;
 }
 
+.nav-link {
+    font-weight: bold;
+    color: black;
+}
+
 .nav-link:hover {
     border-bottom: 2px solid #A5B4FC;
 }
 
-/* navbar t css */
+/* navbar  css */
 
 /* single-project css */
 .slick-prev:before,
@@ -85,7 +95,7 @@
 
 
 .nextPrev {
-    background-color: rgb(147, 197, 253);
+    background-color: #60A5FA;
     border-radius: 6px;
     padding: 20px;
     color: white;
@@ -221,7 +231,7 @@ i {
 
 /* footer css */
 .footer {
-    background-color: rgb(175, 224, 224);
+    background-color: rgb(147, 197, 253);
 }
 
 /* footer css */

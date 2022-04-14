@@ -12,9 +12,9 @@ const AllProjects = () => {
     return (
         <>
             <h1 className="mt-2 text-5xl text-center text-green-800 font-bold">Projects</h1>
-            <Suspense fallback={<div class="d-flex justify-content-center mt-5">
-                <div class="spinner-grow text-info" role="status">
-                    <span class="visually-hidden">Loading...</span>
+            <Suspense fallback={<div className="d-flex justify-content-center mt-5">
+                <div className="spinner-grow text-info" role="status">
+                    <span className="visually-hidden">Loading...</span>
                 </div>
             </div>}>
                 <div className="container mt-10 mb-16">

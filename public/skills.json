@@ -1,0 +1,36 @@
+{
+    "aboutMe": "I'm a web developer with hands-on experience in JavaScript. I am passionate to build any kind of web development solution. I am an aspiring web developer, learning every aspect of web development. I am a quick learner, a team performer, and can stick to something until I achieve positive results."
+    ,
+    "skills":{
+        
+    "comfortable":[
+            "JavaScript/ES6",
+            "React.js",
+            "Next.js",
+            "Material UI",
+            "JSON",
+            "DOM",
+            "SASS",
+            "Bootstrap",
+            "Tailwind",
+            "HTML & CSS"
+        ],
+        "familiar":[
+            "MongoDB",
+            "Node.js & Express.js",
+            "Redux & Redux Thunk",
+            "PHP",
+            "WordPress"
+        ],
+    "tools": [
+        "VS Code",
+        "Git",
+        "Chrome Dev Tool",
+        "Firebase",
+        "Netlify",
+        "Heroku",
+        "Postman"
+    ]
+
+}
+}

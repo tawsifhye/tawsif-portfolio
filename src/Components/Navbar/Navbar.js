@@ -25,19 +25,19 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarText">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <HashLink className={scroll ? "nav-link text-white" : "nav-link"} to="/home#home">Home</HashLink>
+                                <HashLink className={scroll ? "nav-link text-white" : "nav-link text-black"} to="/home#home">Home</HashLink>
                             </li>
                             <li className="nav-item">
-                                <HashLink className={scroll ? "nav-link text-white" : "nav-link"} to="/home#about">About Me</HashLink>
+                                <HashLink className={scroll ? "nav-link text-white" : "nav-link text-black"} to="/home#about">About Me</HashLink>
                             </li>
                             <li className="nav-item">
-                                <HashLink className={scroll ? "nav-link text-white" : "nav-link"} to="/home#projects">Projects</HashLink>
+                                <HashLink className={scroll ? "nav-link text-white" : "nav-link text-black"} to="/home#projects">Projects</HashLink>
                             </li>
                             {/* <li className="nav-item">
                                 <Link className={scroll ? "nav-link text-white" : "nav-link"} to="/blogs">Blogs</Link>
                             </li> */}
                             <li className="mr-2 nav-item">
-                                <Link className={scroll ? "nav-link text-white" : "nav-link"} to="/contact">Contact Me</Link>
+                                <Link className={scroll ? "nav-link text-white" : "nav-link text-black"} to="/contact">Contact Me</Link>
                             </li>
 
                             <li className="nav-item">
