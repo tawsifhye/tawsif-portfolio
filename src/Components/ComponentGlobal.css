@@ -1,5 +1,6 @@
 body {
     background-color: #F5FFFA;
+    scroll-behavior: smooth;
 }
 
 /* banner-css */
@@ -73,10 +74,17 @@ body {
 .nav-link {
     font-weight: bold;
     color: black;
+    border-bottom: 2px solid transparent;
 }
 
 .nav-link:hover {
-    border-bottom: 2px solid #A5B4FC;
+    border-color: #a5e0fc;
+}
+
+@media (screen) and (max-width: 991px) {
+    .nav-link:hover {
+        border-bottom: none;
+    }
 }
 
 /* navbar  css */
@@ -250,3 +258,29 @@ i {
 }
 
 /* floating-button css */
+
+
+
+/* scroll bar style */
+/* width */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* scroll bar style */
