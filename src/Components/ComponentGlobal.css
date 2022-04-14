@@ -99,6 +99,7 @@ body {
     border-radius: 6px;
     padding: 20px;
     color: white;
+    cursor: pointer;
 }
 
 .nextPrev:first-child {
