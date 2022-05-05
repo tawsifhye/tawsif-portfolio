@@ -29,7 +29,7 @@ const AboutMe = () => {
                         <div className='mb-5'>
                             <h1 className={aboutMeSubHeader}>Experience</h1>
                             <p className="text-2xl font-bold">Staff Asia</p>
-                            <p className=" font-bold">Web Developer</p>
+                            <p className=" font-bold">React Developer</p>
                             <p className=" font-bold">Internship</p>
                             <p className=" font-bold">January 2022 - Present</p>
                         </div>
