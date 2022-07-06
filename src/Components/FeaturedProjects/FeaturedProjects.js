@@ -50,7 +50,7 @@ const FeaturedProjects = () => {
     return (
         <>
             <div id="projects" className=" container mt-28 mb-16">
-                <h1 className=" text-5xl text-center text-blue-400 font-bold">Featured Projects</h1>
+                <h1 className=" text-5xl text-center font-bold">Featured Projects</h1>
                 <div className='flex justify-end mt-3'>
                     <span className='nextPrev' onClick={() => sliderRef?.current?.slickPrev()}><FaArrowLeft /></span>
 

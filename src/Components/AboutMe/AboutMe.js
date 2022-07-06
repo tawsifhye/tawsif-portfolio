@@ -18,7 +18,7 @@ const AboutMe = () => {
         <>
             <div id="about" className="mt-28">
 
-                <h1 className=" text-5xl text-center text-blue-400 font-bold">About Me</h1>
+                <h1 className=" text-5xl text-center font-bold">About Me</h1>
 
                 <div className="container grid mt-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 mx-auto">
                     <div className="flex sm:mt-10 flex-col justify-center ">
@@ -28,10 +28,19 @@ const AboutMe = () => {
                         <p className="font-black mb-5 text-justify">{aboutMe}</p>
                         <div className='mb-5'>
                             <h1 className={aboutMeSubHeader}>Experience</h1>
-                            <p className="text-2xl font-bold">Staff Asia</p>
-                            <p className=" font-bold">React Developer</p>
-                            <p className=" font-bold">Internship</p>
-                            <p className=" font-bold">January 2022 - Present</p>
+
+                            {/* <div className='w-3 h-3 bg-gray-800 border rounded-full	relative timeline'></div> */}
+                            <div>
+                                <p className="text-2xl font-bold">Staff Asia</p>
+                                <p className=" font-bold">Web Developer & Maintainer</p>
+                                <p className=" font-bold">July 2022 - Present</p>
+                            </div>
+                            <div className='mt-4'>
+                                <p className="text-2xl font-bold">Staff Asia</p>
+                                <p className=" font-bold">Frontend Developer</p>
+                                <p className=" font-bold">Internship</p>
+                                <p className=" font-bold">January 2022 - June 2022</p>
+                            </div>
                         </div>
                         <div id="skills">
                             <h1 className={aboutMeSubHeader}>Skills</h1>
