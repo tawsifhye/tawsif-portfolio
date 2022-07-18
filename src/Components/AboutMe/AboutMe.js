@@ -30,16 +30,17 @@ const AboutMe = () => {
                             <h1 className={aboutMeSubHeader}>Experience</h1>
 
                             {/* <div className='w-3 h-3 bg-gray-800 border rounded-full	relative timeline'></div> */}
-                            <div>
+                            {/*  <div>
                                 <p className="text-2xl font-bold">Staff Asia</p>
                                 <p className=" font-bold">Web Developer & Maintainer</p>
                                 <p className=" font-bold">July 2022 - Present</p>
-                            </div>
+                            </div> */}
                             <div className='mt-4'>
                                 <p className="text-2xl font-bold">Staff Asia</p>
-                                <p className=" font-bold">Frontend Developer</p>
-                                <p className=" font-bold">Internship</p>
-                                <p className=" font-bold">January 2022 - June 2022</p>
+                                <p className=" font-bold">Web Developer</p>
+                                {/* <p className=" font-bold">Internship</p> */}
+                                <p className=" font-bold">Technology: React.js, Next.js, WordPress</p>
+                                <p className=" font-bold">Jan 2022 - Present</p>
                             </div>
                         </div>
                         <div id="skills">
