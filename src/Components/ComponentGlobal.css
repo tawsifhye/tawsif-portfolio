@@ -177,20 +177,12 @@ body {
 /* single-project css */
 
 /* contact form css */
-.wrapper {
-    width: 90%;
-    padding: 2rem;
-    background: #fff;
-    box-shadow: 0 0px 2.2px rgba(0, 0, 0, 0.028), 0 0px 5.3px rgba(0, 0, 0, 0.04),
-        0 0px 10px rgba(0, 0, 0, 0.05), 0 0px 17.9px rgba(0, 0, 0, 0.06),
-        0 0px 33.4px rgba(0, 0, 0, 0.072), 0 0px 80px rgba(0, 0, 0, 0.1);
-}
 
-.wrapper h2 {
-    background: rgba(173, 216, 230, 0.7);
-    letter-spacing: 0.1rem;
-    padding: 1rem;
-    margin-bottom: 2%;
+
+.contact-us-banner {}
+
+.contact-us-banner img {
+    /* height: 20vw; */
 }
 
 .form-group input[type="text"],
@@ -206,11 +198,13 @@ body {
 .form-group input[type="text"],
 .form-group input[type="email"] {
     height: 4.6rem;
-    margin-bottom: 2%;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .form-group textarea {
     resize: vertical;
+    border-radius: 10px;
 }
 
 .submit {
@@ -218,7 +212,7 @@ body {
     margin-top: 1rem;
     padding: 1rem 1.5rem;
     border: none;
-    background: rgba(173, 216, 230, 0.7);
+    background: rgb(147, 197, 253);
     cursor: pointer;
     transition: background 0.15s;
 }

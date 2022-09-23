@@ -37,7 +37,7 @@ const Navbar = () => {
                                 <Link className={scroll ? "nav-link text-white" : "nav-link"} to="/blogs">Blogs</Link>
                             </li> */}
                             <li className="mr-2 nav-item">
-                                <Link className={scroll ? "nav-link text-white" : "nav-link text-black"} to="/contact">Contact Me</Link>
+                                <HashLink className={scroll ? "nav-link text-white" : "nav-link text-black"} to="/home#contact">Contact Me</HashLink>
                             </li>
 
                             <li className="nav-item">

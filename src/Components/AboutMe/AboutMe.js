@@ -18,7 +18,7 @@ const AboutMe = () => {
         <>
             <div id="about" className="mt-28">
 
-                <h1 className=" text-5xl text-center font-bold">About Me</h1>
+                <h1 className="text-5xl text-center font-bold">About Me</h1>
 
                 <div className="container grid mt-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 mx-auto">
                     <div className="flex sm:mt-10 flex-col justify-center ">
