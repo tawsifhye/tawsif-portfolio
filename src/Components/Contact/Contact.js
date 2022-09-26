@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import '../ComponentGlobal.css'
-import contactUsBanner from '../../images/web-development-promotion.png'
 import contactIllustration from '../../images/contact.jpg'
 const Contact = () => {
     useEffect(() => {
