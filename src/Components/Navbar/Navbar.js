@@ -30,9 +30,9 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <HashLink className={scroll ? "nav-link text-white" : "nav-link text-black"} to="/home#about">About Me</HashLink>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <HashLink className={scroll ? "nav-link text-white" : "nav-link text-black"} to="/home#projects">Projects</HashLink>
-                            </li>
+                            </li> */}
                             {/* <li className="nav-item">
                                 <Link className={scroll ? "nav-link text-white" : "nav-link"} to="/blogs">Blogs</Link>
                             </li> */}
